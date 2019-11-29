@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<allweapon>
+<weapons>
+	<weapon id="1" name="寒冰箭" prefabName="hanbingjian.prefab" desc="今天你好" nums="123" />
+	<weapon id="2" name="青龙偃月刀" prefabName="qlyyd.prefab" desc="可惜的武器不太好用" nums="12" />
+</weapons>
+</allweapon>
