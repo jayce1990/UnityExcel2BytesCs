@@ -1,0 +1,20 @@
+工具使用：
+1.执行菜单 SDGSupporter/Excel/1.Excel2Cs 生成c#脚本。
+2.等待C#类编译完成
+3.执行菜单 SDGSupporter/Excel/2.Excel2Bytes 生成Xml临时文件，生成bytes二进制表格数据，删除xml临时文件。
+4.运行场景SampleScene.unity Console面板打印表格内容。
+
+工具代码：
+Assets\Editor\Excel2CsBytesTool.cs 文件夹路径可配置在这里
+Assets\Scripts\BaseTable.cs Excel配置时支持的类型数组
+
+源Excel文件夹：
+ExcelData
+
+生成的C#类：
+Assets\Scripts\DataTable\weapon.cs
+生成的bytes文件：
+Resources\DataTable\weapon.bytes
+
+中间临时文件夹(可删除)：
+ExcelData\tempXml
