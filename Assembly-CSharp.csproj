@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\readBytesTest.cs" />
+    <Compile Include="Assets\Scripts\BaseTable.cs" />
     <Compile Include="Assets\Scripts\DataTable\weapon.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/Code/Excel2XmlBytes/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

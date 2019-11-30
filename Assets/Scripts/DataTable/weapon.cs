@@ -28,16 +28,40 @@ namespace Table
         public string prefabName;
 
         /// <summary>
-        /// 描述
+        /// 描述#真好
         /// </summary>
         [XmlAttribute("desc")]
-        public string desc;
+        public List<string> desc
+        {
+            get
+            {
+                if (_desc != null)
+                {
+                    return _desc.item;
+                }
+                return null;
+            }
+        }
+        [XmlElementAttribute("desc")]
+        public stringArray _desc;
 
         /// <summary>
         /// 数量
         /// </summary>
         [XmlAttribute("nums")]
-        public int nums;
+        public List<int> nums
+        {
+            get
+            {
+                if (_nums != null)
+                {
+                    return _nums.item;
+                }
+                return null;
+            }
+        }
+        [XmlElementAttribute("nums")]
+        public intArray _nums;
 
         public static List<weapon> LoadBytes()
         {
